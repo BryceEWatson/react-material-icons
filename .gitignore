@@ -1,0 +1,41 @@
+# test generated files
+.fe-coverage
+.be-coverage
+.merged-coverage
+coverage
+.coverage
+test/xunit-results.txt
+**/fixtures/*.html.js
+generated-layouts/*.json
+generated-layouts/*.marko
+generated-layouts/*.js
+.temp/*
+jsonCov/
+*xunit.xml
+.test-reports
+
+# ebaynodejs framework/server tmp files
+node_modules/*
+**/static/*
+static/*
+.cache/*
+.beans/*
+log/*
+target/*
+npm-debug.log
+*.marko.js
+*.log
+restarts_*
+validation-status.json
+
+# IDE configuration
+.telemetry.json
+.idea
+*.iml
+
+# Others
+**/.DS_Store
+*.html
+generated/*
+phantomas/
+.nvmrc

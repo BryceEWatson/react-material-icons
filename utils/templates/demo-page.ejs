@@ -1,0 +1,7 @@
+import React from 'react';
+import {render} from 'react-dom';
+
+<% for(var i=0; i<data.components.length; i++) {%>
+    import <%= data.components[i].name %> from '<%= data.components[i].path %>';
+    render(<<%= data.components[i].name %>/>, document.getElementById('demo-<%= data.components[i].name %>'));
+<% } %>
